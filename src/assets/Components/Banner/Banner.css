@@ -1,0 +1,40 @@
+.product-card {
+    border: solid 2px;
+    display: flex;
+    margin: 1rem;
+    width: 50%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.card-btn{
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+
+    button{
+        background: darkslategrey;
+        color: white;
+    }
+}
+.cardDetails{
+    h4{
+        color: gray;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+}
